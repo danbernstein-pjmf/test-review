@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-container"
+version = "0.1.0"
+description = ""
+authors = ["dan <dan.bernstein@mcgovern.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
